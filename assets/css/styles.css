@@ -16,7 +16,7 @@
   --text-color: hsl(var(--hue), 4%, 35%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
   --body-color: hsl(var(--hue), 0%, 100%);
-  --container-color: #FFF;
+  --container-color: #e3d3f7;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -82,7 +82,8 @@ textarea{
 body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: black;
   transition: .4s; /*For animation dark mode*/
 }
 
@@ -93,7 +94,8 @@ button{
 }
 
 h1,h2,h3{
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #491f81;
   font-weight: var(--font-semi-bold);
 }
 
@@ -122,7 +124,8 @@ body.dark-theme{
 
 /*========== Button Dark/Light ==========*/
 .change-theme{
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #491f81;
   font-size: 1.15rem;
   cursor: pointer;
 }
@@ -185,7 +188,8 @@ the website, in dark theme
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color:honeydew;
   position: fixed;
   top: 0;
   left: 0;
@@ -204,7 +208,8 @@ the website, in dark theme
 .nav__logo,
 .nav__toggle,
 .nav__close{
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #491f81;
 }
 
 .nav__logo{
@@ -219,11 +224,13 @@ the website, in dark theme
 
 .nav__logo-icon{
   font-size: 1.15rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 .nav__toggle{
@@ -235,7 +242,8 @@ the website, in dark theme
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
-    background-color: var(--container-color);
+    /* background-color: var(--container-color); */
+    background-color: #ceb4ef;
     width: 80%;
     height: 100%;
     top: 0;
@@ -263,13 +271,15 @@ the website, in dark theme
 }
 
 .nav__link{
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #491f81;
   font-weight: var(--font-medium);
   transition: .3s;
 }
 
 .nav__link:hover{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 /* Show menu */
@@ -285,7 +295,8 @@ the website, in dark theme
 /* Active link */
 .active-link{
   position: relative;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 .active-link::after{
@@ -295,7 +306,8 @@ the website, in dark theme
   left: 0;
   width: 50%;
   height: 2px;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #dcc1ff;
 }
 
 /*=============== HOME ===============*/
@@ -335,7 +347,8 @@ the website, in dark theme
 .home__social-follow{
   font-weight: var(--font-medium);
   font-size: var(--smaller-font-size);
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
   position: relative;
   transform: rotate(90deg);
 }
@@ -345,7 +358,8 @@ the website, in dark theme
   position: absolute;
   width: 1rem;
   height: 2px;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #e3d3f7;
   right: -45%;
   top: 50%;
 }
@@ -358,7 +372,8 @@ the website, in dark theme
 
 .home__social-link{
   font-size: 1rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
   transition: .3s;
 }
 
@@ -369,7 +384,8 @@ the website, in dark theme
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #491f81;
   color: #FFF;
   padding: 1rem 1.75rem;
   border-radius: .5rem;
@@ -378,7 +394,8 @@ the website, in dark theme
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #682db5;
 }
 
 .button__icon{
@@ -396,7 +413,8 @@ the website, in dark theme
 }
 
 .button--link{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
   font-weight: var(--font-medium);
 }
 
@@ -436,13 +454,15 @@ the website, in dark theme
 
 .about__details-icon{
   font-size: 1rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
   margin-top: .15rem;
 }
 
 /*=============== STEPS ===============*/
 .steps__bg{
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #ceb4ef;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -453,7 +473,7 @@ the website, in dark theme
 }
 
 .steps__title{
-  color: #FFF;
+  color: #491f81
 }
 
 .steps__card{
@@ -464,7 +484,8 @@ the website, in dark theme
 
 .steps__card-number{
   display: inline-block;
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #491f81;
   color: #FFF;
   padding: .5rem .75rem;
   border-radius: .25rem;
@@ -525,7 +546,8 @@ the website, in dark theme
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #491f81;
   color: #FFF;
   padding: .25rem;
   border-radius: .35rem;
@@ -533,13 +555,15 @@ the website, in dark theme
 }
 
 .product__button:hover{
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #491f81;
 }
 
 .product__circle{
   width: 90px;
   height: 90px;
-  background-color: var(--first-color-lighten);
+  /* background-color: var(--first-color-lighten); */
+  background-color: #e3d3f7;
   border-radius: 50%;
   position: absolute;
   top: 18%;
@@ -552,7 +576,8 @@ the website, in dark theme
 
 /*=============== QUESTIONS ===============*/
 .questions{
-  background-color: var(--first-color-lighten);
+  /* background-color: var(--first-color-lighten); */
+  background-color: #c6a7ef
 }
 
 .questions__container{
@@ -566,7 +591,8 @@ the website, in dark theme
 }
 
 .questions__item{
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
+  background-color: #e3d3f7;
   border-radius: .25rem;
 }
 
@@ -614,13 +640,14 @@ the website, in dark theme
 /*Rotate icon, change color of titles and background*/
 .accordion-open .questions__header,
 .accordion-open .questions__content{
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color:#e3d3f7;
 }
 
 .accordion-open .questions__item-title,
 .accordion-open .questions__description,
 .accordion-open .questions__icon{
-  color: #FFF;
+  /* color: #FFF; */
 }
 
 .accordion-open .questions__icon{
@@ -640,7 +667,8 @@ the website, in dark theme
 .contact__subtitle{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: black;
   margin-bottom: var(--mb-0-5);
 }
 
@@ -648,7 +676,7 @@ the website, in dark theme
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  color: var(--title-color);
+  /* color: var(--title-color); */
   font-weight: var(--font-medium);
 }
 
@@ -726,7 +754,8 @@ the website, in dark theme
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: #491f81;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
@@ -736,11 +765,13 @@ the website, in dark theme
 
 .footer__logo-icon{
   font-size: 1.15rem;
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 .footer__logo:hover{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #491f81;
 }
 
 .footer__title{
@@ -749,7 +780,8 @@ the website, in dark theme
 }
 
 .footer__subscribe{
-  background-color: var(--first-color-lighten);
+  /* background-color: var(--first-color-lighten); */
+  background-color: #caaeee;
   padding: .75rem;
   display: flex;
   justify-content: space-between;
@@ -760,7 +792,8 @@ the website, in dark theme
   width: 70%;
   padding: 0 .5rem;
   background: none;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: #491f81;
   border: none;
   outline: none;
 }
@@ -785,7 +818,8 @@ the website, in dark theme
 
 .footer__social-link{
   font-size: 1rem;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: #491f81;
   transition: .3s;
 }
 
@@ -805,14 +839,16 @@ the website, in dark theme
 .footer__copy{
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  /* color: var(--text-color-light); */
+  color: #491f81;
   margin: 5rem 0 1rem;
 }
 
 /*=============== SCROLL UP ===============*/
 .scrollup{
   position: fixed;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #491f81;
   right: 1rem;
   bottom: -30%;
   display: inline-flex;
@@ -829,7 +865,8 @@ the website, in dark theme
 }
 
 .scrollup:hover{
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #491f81;
   opacity: 1;
 }
 
